@@ -13,3 +13,8 @@ One of the udev rules conflicts with the device id used by our E-stops. Instead,
 
 ## Toolchains
 We have custom toolchains to cross-compile for the Jetson Nano and Raspbery Pi 5.
+
+| Filename | sha256 |
+|----------|--------|
+| aarch64-tbots-linux-gnu-for-x86.tar.xz | c2ed38183926c4264db56890698f41c0019fb82800bc474172b0841f5a1f22ce |
+| aarch64-tbots-linux-gnu-for-aarch64.tar.xz | 94181b1742ee72e0d1f8f0b80b9f602da6e7455b8fdc11a1690a55a5aff46cb3 |
