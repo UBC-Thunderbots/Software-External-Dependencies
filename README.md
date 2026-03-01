@@ -12,9 +12,11 @@ The BRLTTY service provides access to a console screen for blind people via a br
 One of the udev rules conflicts with the device id used by our E-stops. Instead, we offer alternate udev rules to prevent this conflict.
 
 ## Toolchains
-We have custom toolchains to cross-compile for the Jetson Nano and Raspbery Pi 5.
+We have custom toolchains to cross-compile for the Raspbery Pi 5.
+
+NOTE: the .config-for-aarch64 uses "aarch64-buildtohost-linux-gnu" as the host tuple. This can change depending on what the build -> host cross compilation toolchain's vendor string is.
 
 | Filename | sha256 |
 |----------|--------|
-| aarch64-tbots-linux-gnu-for-x86.tar.xz | 86dcb28c5c36498423965a796079fb989d26fcc9bbf5ce06ec9fdff3672e4771 |
-| aarch64-tbots-linux-gnu-for-aarch64.tar.xz | 94181b1742ee72e0d1f8f0b80b9f602da6e7455b8fdc11a1690a55a5aff46cb3 |
+| aarch64-tbots-linux-gnu-for-x86.tar.xz | c6dfe4f1d85f2d42cf33a3259873223d137c9f2f14102d912ea9e3f8fa1d04c2 |
+| aarch64-tbots-linux-gnu-for-aarch64.tar.xz | 924544f85e64050aa6fe02b15f26922ca656165a80fe8a3656a4da7d18419dd1 |
