@@ -18,5 +18,5 @@ NOTE: the .config-for-aarch64 uses "aarch64-buildtohost-linux-gnu" as the host t
 
 | Filename | sha256 |
 |----------|--------|
-| aarch64-tbots-linux-gnu-for-x86.tar.xz | c6dfe4f1d85f2d42cf33a3259873223d137c9f2f14102d912ea9e3f8fa1d04c2 |
-| aarch64-tbots-linux-gnu-for-aarch64.tar.xz | 924544f85e64050aa6fe02b15f26922ca656165a80fe8a3656a4da7d18419dd1 |
+| aarch64-tbots-linux-gnu-for-x86.tar.xz | 5b530533dc1177eeb70e24d2263006dcfbbf2efc45b68c9f3fb504dbced80168   |
+| aarch64-tbots-linux-gnu-for-aarch64.tar.xz | 888d10c999ff2bd28a6c9447ad8efd7cbb35d57a8ecb9ca7182621de6988ef54   |
